@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Queasily;
+    src: url(/assets/QueasilyRegular-YzeDj.ttf);
+}
+
+.letter {
+    width:50%;
+    padding:80px 80px;
+    border-radius: 100px 0px 100px 0px;
+    background-image: url('/assets/paper-texture.jpg');
+    background-size: cover;
+    font-family: Queasily;
+    font-size: 36px;
+    margin:50px 0px;
+    color:#843C0C;
+}
+
+.letter a {
+    color:#843C0C;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding:5px;
+    transition:1s;
+}
+
+.letter a:hover {
+    text-shadow: 0 0 10px;
+    transition:1s;
+}
+
+.for-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.pond {
+    background-image: url('/assets/pond.jpg');
+    background-size:100%;
+    height:100vh;
+}
+
+.flip {
+    transform:scaleX(-1);
+}
+
+.dialogue-container {
+    position: absolute;
+    bottom:20px;
+    height:120px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    overflow:visible;
+}
+
+.carousel-item img {
+    width:400px;
+    bottom:0px;
+}
+
+.dialogue {
+    padding:20px;
+    width:50%;
+    height:300px;
+    bottom:0px;
+}
+
+.dialogue p {
+    padding: 50px;
+    background-color: rgba(245, 245, 219, 0.5);
+    border-radius: 20px;
+    position: relative;
+    bottom:-100px;
+    z-index: -1;
+}
+
+.waterfalls {
+    background-image: url('assets/waterfalls.jpg');
+    background-size:100%;
+    height:100vh;
+}
+
+.lprofile {
+    width:250px;
+    position:absolute;
+     left:-150px;
+}
+
+.rprofile {
+    width:250px;
+    position:absolute;
+    right:-150px;
+}
